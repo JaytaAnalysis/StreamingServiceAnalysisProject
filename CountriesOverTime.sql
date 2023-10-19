@@ -1,7 +1,7 @@
 /*
 This query generates a table where each row shows what country, month, and year that a streaming service title came out in.
 The purpose of this query is to see how the countries where titles are filmed change over time.
-This can provide insight as to where filming is more popular or economic, which can influence where to film a title.
+This can provide insight for trends where filming is more popular or economic, which can influence where to plan filming a title.
 */
 SELECT 
   TRIM(old_countries) AS countries,
