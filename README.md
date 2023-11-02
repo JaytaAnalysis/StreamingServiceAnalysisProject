@@ -39,6 +39,8 @@ I only included data from 2017 to 2021 because 2017 is the first year that every
 
 ![alt text](https://github.com/JaytaAnalysis/StreamingServiceAnalysisProject/blob/main/DataVizzes/DataViz_NumTVSeasonsOverTime_full.png)
 
+This graph shows how the number of seasons of added TV shows changes over time. I divided the number of TV seasons into five categories where each one directly corresponds with the number of seaons in that TV show except the last category, which inlcudes all TV shows with 5 or more seasons. Even though the data has been filtered so that there is at least one TV show per month, the graph is more erratic during the earlier months. This variation is primarily due to the low number of TV shows released in the years 2014-2017. This low number of TV shows means that small variations in the number of seasons becomes amplified in the final graph.
+
 ### Comparing Number of Movies to Number of TV Shows
 
 ![alt text](https://github.com/JaytaAnalysis/StreamingServiceAnalysisProject/blob/main/DataVizzes/DataViz_PercentMoviesTV_full.png)
