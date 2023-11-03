@@ -54,6 +54,19 @@ This graph depicts the difference between movies and TV shows added from 2014 to
 
 ![alt text](https://github.com/JaytaAnalysis/StreamingServiceAnalysisProject/blob/main/DataVizzes/DataViz_PercentRatings_full.png)
 
+This graph shows the relative number of titles that fit into different categoires of content rating from 2014 to 2021. I created a standardized system (explained in more detail below) in order to have a less cumbersome number of categories that still accurately reflects important differences across the multitude of ratings. My system splits movies and shows into four categories: young kids (0-6 years old), kids (7-12 years old), teens (13-16 years old), and adults (17+ years old). Similar to the previous two graphs, the data from 2017 to 2021 generally demonstrates a more consistent trend than the data from 2014 to 2017; however, there is a notable departure from the trend in 11/2019. This month is significant because that is when Disney+ launched and it flooded that month with a great number of titles that are aimed at younger audiences, especially those in my "Young Kids" category. The addition of Disney+ titles also creates a noticeable shift in the percentages of ratings categories of added titles from 11/2019 onwards. The average percentage changes from 1/2017-10/2019 to 12/2019-10/2021 are: 20% -> 29% (Young Kids), 3% -> 4% (Kids), 32% -> 28% (Teens), and 45% -> 39% (Adults). The change in percentages likely primarily came from the Disney+ launch that introduced more "Young Kids" and "Kids" titles.
+
+While there are percentage variations during the pre-Disney+ and post-Disney+ time periods, overall these variations do not trend upward/downward but rather stay near their average value - this is indicated by their standard deviations being around 2-4%. This shows that among the major streaming services there is an established trend for how many titles are produced for each content rating. Further research can be done to find out reasons why this might be true. Examining trends among movies and shows outside of streaming services could demonstrate if this trend is part of a larger trend or if it is special to streaming services. Investigating polling data from people expressing what maturity of content they want can inform whether this trend is based in public desire. It is possible that these percentages reflect an industry equilibrium where profits have been maximized with respect to representation of content maturity level, so analyzing profits could provide great insight.
+
+#### Content Ratings Information
+
+Across the four streaming services I analyzed in my project, there were  different ratings used. All of these ratings recommend the minimum age of viewers of the movie or show in order to avoid exposing particular age groups to inappropriate content. I researched what the various standard ratings meant or made educated guesses for some that did not seem as official. Once I assembled that information, I created my standardized rating categories by attempting to equally distribute the original ratings into new categories. I will now show how the old and new categories relate:
+
+Young Kids: G, PG, TV-Y, TV-G, TV-PG, ALL, ALL_AGES
+Kids: TV-Y7, TV-Y7-FV, 7+
+Teens: PG-13, TV-14, 16+, AGES_16_, 16, 13+
+Adults: R, TV-MA, NC-17, AGES_18_
+
 ### Comparing Actor Distribution Between Movies and TV Shows
 
 ![alt text](https://github.com/JaytaAnalysis/StreamingServiceAnalysisProject/blob/main/DataVizzes/DataViz_ActorsRoles_full.png)
