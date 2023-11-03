@@ -39,9 +39,13 @@ I only included data from 2017 to 2021 because 2017 is the first year that every
 
 ![alt text](https://github.com/JaytaAnalysis/StreamingServiceAnalysisProject/blob/main/DataVizzes/DataViz_NumTVSeasonsOverTime_full.png)
 
-This graph shows how the number of seasons of added TV shows changes over time. I divided the number of TV seasons into five categories where each one directly corresponds with the number of seaons in that TV show except the last category, which inlcudes all TV shows with 5 or more seasons. Even though the data has been filtered so that there is at least one TV show per month, the graph is more erratic during the earlier months. This variation is primarily due to the low number of TV shows released in the years 2014-2017. This low number of TV shows means that small variations in the number of seasons becomes amplified in the final graph.
+This graph shows how the number of seasons of added TV shows changes over time. I divided the number of TV seasons into five categories where each one directly corresponds with the number of seasons in that TV show except the last category, which inlcudes all TV shows with 5 or more seasons. Even though the data has been filtered so that there is at least one TV show per month, the graph is more erratic during the earlier months. This variation can be explained by the low total number of TV shows released: small changes in the number of TV shows in a category create large changes in the percentage of that category when the total number of TV shows is small. Until around 2017, the total number of TV shows released was too small to permit consistent values. From 2017 onwards, the percentage of categories does seem to equilibrate around particular values: 63% are 1 season, 16% are 2 seasons, 7% are 3 seasons, 5% are 4 seasons, and 9% are 5 or more seasons.
+
+Similar to the conclusion about movie runtime trends, this graph demonstrates that the percentages of TV show durations remains approximately constant from 2017 to 2021. This is important to note because it indicates that there seems to be consistent demand for a variety of number of seasons. There don't seem to be trending increases or decreases in a particular category of TV shows, so show producers can take this into account when planning what new shows to roll out. As with the movie runtime trends, there is still wiggle room in the percentages to allow for flexibility in deciding how many shows to create/add for the streaming service platform.
 
 ### Comparing Number of Movies to Number of TV Shows
+
+This graph depicts the difference between movies and TV shows added from 2014 to 2021. Just like the in the earlier plot, the data from 2014 to  2-
 
 ![alt text](https://github.com/JaytaAnalysis/StreamingServiceAnalysisProject/blob/main/DataVizzes/DataViz_PercentMoviesTV_full.png)
 
