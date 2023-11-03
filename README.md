@@ -63,8 +63,11 @@ While there are percentage variations during the pre-Disney+ and post-Disney+ ti
 Across the four streaming services I analyzed in my project, there were  different ratings used. All of these ratings recommend the minimum age of viewers of the movie or show in order to avoid exposing particular age groups to inappropriate content. I researched what the various standard ratings meant or made educated guesses for some that did not seem as official. Once I assembled that information, I created my standardized rating categories by attempting to equally distribute the original ratings into new categories. I will now show how the old and new categories relate:
 
 Young Kids: G, PG, TV-Y, TV-G, TV-PG, ALL, ALL_AGES
+
 Kids: TV-Y7, TV-Y7-FV, 7+
+
 Teens: PG-13, TV-14, 16+, AGES_16_, 16, 13+
+
 Adults: R, TV-MA, NC-17, AGES_18_
 
 ### Comparing Actor Distribution Between Movies and TV Shows
