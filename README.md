@@ -80,6 +80,6 @@ Further research could be done to investigate the cause of why actors seems to b
 
 #### Important Filtering Information
 
-
+In making this graph, I have filtered out any data points where less than 10 actors had that particular movie/show combination. I filtered them out because they greatly extended the graph to the point where it was hard to see the other, more relevant data that accounted for more than 99% of the actors in the data. While it is certainly interesting that some actors have been in more than 30 movies/shows, their presence on the graph only detracts from the trends I am trying to highlight. Additionally, I filtered out any actors who were only in one title. Actors who were only in one title comprised more than half of all actors and they automatically meet any threshold I could make for movie-actor or show-actor since 100% of the titles they were in were only a movie or a show. Since this would have skewed my conclusion by making any threshold I set much easier to meet, I excluded the data from the graph and its analysis. 
 
 ## Conclusion
