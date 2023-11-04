@@ -4,14 +4,13 @@
 
 Streaming 
 
-## Data Cleaning
+## Data Cleaning and Analysis using SQL
 
-I obtained my data for the major streaming services (Disney+, Hulu, Netflix, and Prime) I was going to analyze from Kaggle user [Shivam Basal](https://www.kaggle.com/datasets/shivamb/netflix-shows). The datasets provided were clean for the most part, but there were a few important changes I had to make before I could start analyzing. I opened up the datasets in Sheets to inspect the data and see what edits I needed to make until it was properly formatted and free of errors. One observation I made was that there are repeated movie titles across the streaming services. It seemed some of them were the same visual media, but they were actually different media with the same name. I performed a separate check in each spreadsheet to verify there were no repeated titles in each streaming service by comparing number of unique show_id to number of titles. 
-It seemed some data was inputted in the wrong columns, so I had to identify the extent to which this was happening and remedy it if possible. Most notably, this occurred with the duration and rating data.
-There are 1450 Disney+ titles, 3073 Hulu titles, 8807 Netflix titles, and 9668 Prime Titles, total of 22,998 titles
+I obtained my data for the major streaming services (Disney+, Hulu, Netflix, and Prime) I was going to analyze from Kaggle user [Shivam Basal](https://www.kaggle.com/datasets/shivamb/netflix-shows). The datasets consist of 1450 Disney+ titles, 3073 Hulu titles, 8807 Netflix titles, and 9668 Prime Titles - a total of 22,998 titles. The datasets provided were clean for the most part, but there were a few important changes I had to make before I could start analyzing. I opened up the datasets in Sheets to inspect the data and see what edits I needed to make until it was properly formatted and free of errors. One observation I made was that there are repeated movie titles across the streaming services. It seemed some of them were the same visual media, but they were actually different media with the same name. I performed a separate check in each spreadsheet to verify there were no repeated titles in each streaming service by comparing number of unique show_id to number of titles. It also appeared that some data was inputted in the wrong columns, so I had to identify the extent to which this was happening and remedy it if possible. Most notably, this occurred with the duration and rating data where many duration entries seemed to have shifted one column over to the rating column.
 
+The other significant change I made was to split the duration column into two columns: one column to contain the actual length number and one column to include whether that length is minutes or seasons. This split would enable me to more easily analyze the duration of movies and shows, which is part of my analysis later. One complication in this process was that the movie length was only expressed as "min" while the show length was expressed with "Season" and "Seasons". So I had to find and replace all "Season" with "Seasons" so that I would only have two types of duration, which would be useful when I analyzed various trends about the differences between movies and shows.
 
-## Analyzing Data with SQL
+After cleaning the data (the cleaned data can be found in the ["StreamingServiceData" folder](url) of my project), I moved on to the data analysis portion of my project. I uploaded my clean datasets to BigQuery where I composed queries in SQL to extract the data required to answer the questions I had about these major streaming service titles. The queries I used to create the tables that I produced visualizations from are located in the "Queries_SQL" folder of my project.
 
 ## Data Visualizations
 
