@@ -56,7 +56,7 @@ Similar to the conclusion about movie runtime trends, this graph demonstrates th
 
 ### Comparing Number of Movies to Number of TV Shows
 
-![alt text](https://github.com/JaytaAnalysis/StreamingServiceAnalysisProject/blob/main/DataVizzes/DataViz_PercentMoviesTV_full.png)
+![alt text]
 
 This graph depicts the difference between movies and TV shows added from 2014 to 2021 and shows a reference line at 50%, where we would expect the data to be around if new movies and TV shows were equally likely. Just like the in the previous graphs, the data from 2017 to 2021 demonstrates a more consistent trend than from 2014 to 2017. The average percentage of movies and TV shows are 65% and 35%, each with a standard deviation of 6.5%. This is signifcantly different than a 50% split between movies and TV shows, so there is a clear preference (almost two movies for each TV show) to add movies instead of TV shows. Further research could be done to explore the reason why this split exists. For instance, there could be an exploration of the profit differences between shows and movies, a dive into polls about peoples' movie and show preferences, and an investigation into the resources necessary to create a movie versus a show. These avenues of research should illuminate this intriguing split in the number of movies and shows that my graph demonstrates.
 
